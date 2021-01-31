@@ -1,0 +1,286 @@
+
+
+.fondo{
+    background-color: #EAC926;
+    font-family: 'Roboto', sans-serif;
+    background-size:cover
+    
+}
+
+.titulares{
+font-size:1.5rem;
+text-align: left;
+color:grey
+}
+
+#logo,#nav-bar{
+    flex-grow: 0.5;
+  }
+
+.ultima-visita{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap:wrap
+}
+
+.ofertas{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap:wrap
+}
+.precios{
+    font-size:18px;
+    flex-grow: 0.3;
+    display: inline;
+    
+}
+
+.descuentos{
+    font-size:16px;
+    display: inline;
+    color: green;
+    flex-grow: 0.7;
+
+}
+
+.div{
+font-size: 12px;
+}
+
+.descripciones{
+    font-size: 16px;
+    display: none;
+    color: grey
+}
+
+.descripciones:hover{
+    display: flex
+}
+
+.burger-menu{
+    color: white;   
+    display: block;
+    text-align: center;
+    margin: auto; 
+    width: 15px;
+    padding: 12px;
+    border-radius: 12px;
+    background-color: blue
+}
+
+.center{
+    text-align: center;
+   
+}
+
+.tarjeta{
+    color: #03264C;
+    font-size:2em;
+    margin-bottom: 10px;
+    transition-property: color;
+}
+
+.tarjeta:hover{
+    color:#eaeaea;
+    transition: color, 0.5s
+}
+
+.main{
+    text-align: center;
+    width: 100%;   
+    background-color:#ebebeb;
+
+}
+
+article{
+   align-content: center;
+   margin:10px;
+   background-color: white;
+   width: 100%;
+   transition-property: box-shadow;
+
+}
+
+article:hover{
+    box-shadow:0px 0px 20px rgb(100,100,100)
+}
+
+.box-article{
+    border-top: solid 1px #ebebeb;
+    margin-top: 10px;  
+    text-align: justify;
+    box-sizing: content-box;
+    align-items: initial;
+    position: relative;
+    padding: 15px
+}
+.fasfa-truck{
+    color:#39b54a;
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+            display: block;
+            font-size: 1rem;
+            padding: 5px;
+            width: 30px;
+            height: 30px;
+            border: 1px solid #39b54a;
+            background-color: #FFF;
+            border-radius: 50%;
+            right: 20px;
+            top: -15px;
+            position: absolute;
+            animation: truck 3s infinte; 
+        }
+        
+
+.logo{
+    display: inline;
+    flex-grow: 0.5;
+}
+
+.barra-nav{
+    display: inline;
+    flex-grow: 0.5;
+}
+
+.site{
+    display: none;
+}
+
+.login-bar{
+    display: none;
+}
+
+.header-list{
+    display:none;
+}
+
+.banner{
+ text-size-adjust: 1;
+ background-size: cover;
+}
+img{
+    width: 100%;
+}
+
+.encabezado{
+    display: flex;
+    
+}
+
+.boton{
+    background-color:#eaeaea;
+    transition-property: background-color;
+}
+.boton:hover{
+    background-color: #0022AA;
+    transition: background-color, 0.5s
+}
+
+.login-list{
+    display:inline;
+    padding-left:3px;
+    padding-right:3px
+}
+
+.background-form{
+    background-color:#ebebeb
+}
+
+@media(min-width: 361px){
+     .descripciones{
+         display: flex;
+     }
+     article{
+        box-shadow: 0px 0px 10px rgb(100,100,100);  
+        width:40%;
+        display: inline;
+       
+}
+     .site{
+        display: inline;
+        }
+        .login-bar{
+        display: inline;
+        }
+        .header-list{
+            display: flex;
+            justify-content: space-between;
+            
+        }
+
+        .header-1{
+        display: inline;}
+
+        .header-2{
+        display:inline
+        }
+
+.cuotas{
+    position:relative;
+    top:10px
+}
+        .encabezado{
+            display: flex;
+            justify-content: space-between;
+            background-size:cover
+        }
+
+        .encabezado-dektop{
+            display:flex
+        }
+        
+        .logo{
+            flex-grow:0.3;
+        }
+    .nav-bar{
+    flex-grow:0.3;
+}
+    .cuotas{
+    flex-grow:0.3;
+    text-align: right;
+    text-align: top;
+}
+
+.burger-menu{
+display:none
+}
+
+    }
+ 
+    @media (min-width:769px){
+        article{
+            width: 20%;
+            display: inline;
+        }    
+
+        #logo{
+            flex-grow: 0.5;
+            position:relative;
+            top: 10px
+        }
+        
+        #nav-bar{
+            flex-grow: 0.5;
+            position:relative;
+            top: 40px
+        }
+        .center{
+            text-align: center;
+            position:relative;
+            top: 40px
+        }
+
+        .footer-desktop{
+            display:flex
+        }
+
+        .tarjeta{
+            flex-grow:0.3
+        }
+        .copyright{
+            text-align: justify;
+        }
+        }
+        
