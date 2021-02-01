@@ -18,6 +18,6 @@ app.get('/login', (req,res)=>{
     res.sendFile(path.resolve(__dirname, './views/login.html'));
 })
 
-
-app.listen(app.set("puerto", process.env.PORT), console.log('Servidor corriendo en el Puerto 3001'));
+app.set("puerto", process.env.PORT||3001);
+app.listen(app.get("puerto"), console.log('Servidor corriendo en el Puerto 3001'));
 
